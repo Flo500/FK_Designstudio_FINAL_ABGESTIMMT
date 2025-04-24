@@ -1,0 +1,505 @@
+/* FK Designstudio Stylesheet */
+
+/* BASE ------------------------------- */
+body {
+  font-family: 'Lexend Deca', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #1a1a1a;
+  background-color: #fff;
+}
+
+h1, h2, h3 {
+  font-family: 'Livvic', sans-serif;
+  margin: 0 0 1rem;
+  color: #5e5ce6; /* Gleiche Farbe wie bei "Über mich" */
+}
+
+.section {
+  padding: 5rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.cta-btn {
+  background-color: #3366ff;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border-radius: 30px;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 600;
+  margin: 0.5rem;
+  transition: all 0.3s ease;
+  border: none;
+  text-align: center;
+}
+
+.cta-btn:hover {
+  background-color: #234bd8;
+}
+
+.cta-btn--outline {
+  background-color: #3366ff; /* Gleiche Hintergrundfarbe wie "Jetzt kontaktieren" */
+  color: #fff; /* Weißer Text */
+  padding: 0.75rem 1.5rem;
+  border-radius: 30px;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 600;
+  margin: 0.5rem;
+  transition: all 0.3s ease;
+  border: none; /* Entfernt die Umrandung */
+  text-align: center;
+}
+
+.cta-btn--outline:hover {
+  background-color: #234bd8; /* Gleiche Hover-Farbe wie "Jetzt kontaktieren" */
+  color: #fff;
+}
+
+/* HEADER ----------------------------- */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 2rem;
+  background-color: #fff;
+  border-bottom: 1px solid #eee;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header__logo img {
+  height: 60px; /* Erhöhe die Höhe des Logos */
+  max-width: 100%; /* Verhindert, dass das Logo die Breite überschreitet */
+}
+
+.nav ul {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #1a1a1a;
+  font-weight: 600;
+}
+
+.header__contacts a {
+  margin-left: 1rem;
+  text-decoration: none;
+  color: #1a1a1a;
+}
+
+/* HERO ----------------------------- */
+.hero {
+  background: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('/uploads/hero_background.png') no-repeat center center / cover;
+  color: #fff;
+  text-align: center;
+  padding: 8rem 2rem 6rem;
+  position: relative;
+}
+
+.hero__content {
+  max-width: 900px;
+  margin: 0 auto;
+  z-index: 10;
+  position: relative;
+}
+
+.hero__image {
+  max-width: 250px;
+  border-radius: 20px;
+  margin-top: 2rem;
+}
+
+.hero__socials {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.hero__socials img {
+  width: 30px;
+  height: 30px;
+}
+
+.hero h1, .hero h2 {
+  color: #5E5CE6;
+}
+
+.hero h1 {
+  color: #FFC107; /* Beispiel: Gelb für mehr Aufmerksamkeit */
+  font-size: 3rem; /* Optional: Größere Schriftgröße */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3  .cta-btn--outline {
+    background-color: transparent;
+       <section id="uebermich" class="uebermich section">
+      <h2>Über mich</h2>
+      <div class="uebermich-grid">
+        <div class="uebermich-img-wrapper">
+          <img src="/uploads/florian.jpg" alt="Florian Keller" class="uebermich-img-box">
+        </div>
+        <div class="uebermich-text">
+          <p>Herzlich willkommen! Mein Name ist Florian Keller. Ich habe mich auf digitale Designs für die Gastronomie spezialisiert – mit Fokus auf Webdesign, Fotografie und Werbung. Was einst als Hobby begann, ist heute meine Berufung. Gemeinsam schaffen wir digitale Erlebnisse, die Menschen erreichen und Emotionen wecken.</p>
+        </div>
+      </div>
+    </section> color: #FFC107; /* Beispiel: Gelb für den Text */
+    border: 2px solid #FFC107; /* Gelbe Umrandung */
+    transition: all 0.3s ease;
+  }
+  
+  .cta-btn--outline:hover {
+    background-color: #FFC107; /* Gelber Hintergrund beim Hover */
+    color: #fff; /* Weißer Text beim Hover */
+  }); /* Optional: Leichter Schatten für bessere Lesbarkeit */
+}
+
+@media (max-width: 768px) {
+  .uebermich-wrapper {
+    flex-direction: column; /* Bild und Text untereinander */
+    align-items: center; /* Zentriert Bild und Text */
+    text-align: center; /* Text zentrieren */
+  }
+
+  .uebermich-image img {
+    width: 180px; /* Kleinere Breite des Bildes */
+  }
+}@media (max-width: 768px) {
+  .uebermich-wrapper {
+    flex-direction: column; /* Bild und Text untereinander */
+    align-items: center; /* Zentriert Bild und Text */
+    text-align: center; /* Text zentrieren */
+  }
+
+  .uebermich-image img {
+    width: 180px; /* Kleinere Breite des Bildes */
+  }
+}@media (max-width: 768px) {
+  .uebermich-wrapper {
+    flex-direction: column; /* Bild und Text untereinander */
+    align-items: center; /* Zentriert Bild und Text */
+    text-align: center; /* Text zentrieren */
+  }
+
+  .uebermich-image img {
+    width: 180px; /* Kleinere Breite des Bildes */
+  }
+}@media (max-width: 768px) {
+  .uebermich-wrapper {
+    flex-direction: column; /* Bild und Text untereinander */
+    align-items: center; /* Zentriert Bild und Text */
+    text-align: center; /* Text zentrieren */
+  }
+
+  .uebermich-image img {
+    width: 180px; /* Kleinere Breite des Bildes */
+  }
+}@media (max-width: 768px) {
+  .uebermich-wrapper {
+    flex-direction: column; /* Bild und Text untereinander */
+    align-items: center; /* Zentriert Bild und Text */
+    text-align: center; /* Text zentrieren */
+  }
+
+  .uebermich-image img {
+    width: 180px; /* Kleinere Breite des Bildes */
+  }
+}@media (max-width: 768px) {
+  .uebermich-wrapper {
+    flex-direction: column; /* Bild und Text untereinander */
+    align-items: center; /* Zentriert Bild und Text */
+    text-align: center; /* Text zentrieren */
+  }
+
+  .uebermich-image img {
+    width: 180px; /* Kleinere Breite des Bildes */
+  }
+}@media (max-width: 768px) {
+  .uebermich-wrapper {
+    flex-direction: column; /* Bild und Text untereinander */
+    align-items: center; /* Zentriert Bild und Text */
+    text-align: center; /* Text zentrieren */
+  }
+
+  .uebermich-image img {
+    width: 180px; /* Kleinere Breite des Bildes */
+  }
+}
+.hero__socials-inline {
+  display: flex;
+  justify-content: center; /* Zentriert die Buttons */
+  gap: 1rem; /* Abstand zwischen den Buttons */
+  margin-top: 1rem;
+}
+
+.hero__socials-inline img {
+  width: 40px; /* Einheitliche Breite der Icons */
+  height: 40px; /* Einheitliche Höhe der Icons */
+  border-radius: 50%; /* Optional: Rundes Design */
+  transition: transform 0.3s ease;
+}
+
+.hero__socials-inline img:hover {
+  transform: scale(1.1); /* Vergrößert das Icon beim Hover */
+}
+
+/* LEISTUNGEN ----------------------------- */
+.leistungen-grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(3, 1fr); /* Drei Spalten */
+  margin-top: 2rem;
+}
+
+@media (max-width: 768px) {
+  .leistungen-grid {
+    grid-template-columns: 1fr; /* Eine Spalte auf kleinen Bildschirmen */
+  }
+}
+
+.leistungskarte {
+  display: flex;
+  flex-direction: column; /* Bild, Titel und Text untereinander */
+  align-items: center; /* Zentriert den Inhalt */
+  justify-content: space-between; /* Verteilt den Inhalt gleichmäßig */
+  text-align: center;
+  padding: 1.5rem;
+  background: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  height: 100%; /* Gleiche Höhe für alle Karten */
+}
+
+.leistungskarte-img {
+  max-width: 100%;
+  height: 150px; /* Einheitliche Höhe für alle Bilder */
+  object-fit: cover; /* Schneidet das Bild passend zu */
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.leistungskarte h3 {
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+  color: #333;
+}
+
+.leistungskarte p {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.5;
+  margin-top: auto; /* Text bleibt unten */
+}
+
+/* VORTEILE ----------------------------- */
+.vorteile-grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  margin-top: 2rem;
+}
+
+.vorteilblock {
+  background-color: #f0f4ff;
+  padding: 2rem;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.04);
+}
+
+/* REFERENZEN ----------------------------- */
+.referenzen-grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  margin-top: 2rem;
+}
+
+.referenzen-grid img {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.05);
+}
+
+/* ÜBER MICH ----------------------------- */
+.uebermich {
+  text-align: center;
+  padding: 5rem 2rem;
+}
+
+.uebermich h2 {
+  font-size: 2rem;
+  color: #5e5ce6; /* Gleiche Farbe wie bei anderen Überschriften */
+  margin-bottom: 2rem;
+}
+
+.uebermich-grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Flexibles Grid */
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.uebermich-img-box {
+  width: 100%;
+  max-width: 300px; /* Einheitliche maximale Breite für das Bild */
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1); /* Schatteneffekt */
+  object-fit: cover;
+}
+
+.uebermich-text {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #333;
+  text-align: left; /* Text linksbündig ausrichten */
+}
+
+/* KONTAKT ----------------------------- */
+.kontakt-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.kontaktformular {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.kontaktformular input,
+.kontaktformular textarea {
+  padding: 1rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.kontakt-map iframe {
+  width: 100%;
+  border-radius: 16px;
+  height: 350px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+/* FOOTER ----------------------------- */
+.footer {
+  background: #111;
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.footer__row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: center;
+}
+
+.footer__left,
+.footer__center,
+.footer__right {
+  flex: 1;
+  text-align: center;
+}
+
+.footer__left a,
+.footer__center a {
+  color: #fff;
+  margin: 0 0.5rem;
+  text-decoration: none;
+}
+
+/* COOKIE-BANNER ----------------------------- */
+.cookie-banner {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #eee;
+  padding: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  font-size: 0.9rem;
+  box-shadow: 0 -2px 10px rgba(0,0,0,0.05);
+  z-index: 100;
+}
+
+.cookie-banner button {
+  background: #4b49de;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+}
+
+/* RESPONSIVE ----------------------------- */
+@media (max-width: 768px) {
+  .hero__cta-buttons {
+    flex-direction: column;
+  }
+
+  .footer__row {
+    flex-direction: column;
+  }
+
+  .uebermich-flex {
+    flex-direction: column;
+  }
+
+  .uebermich-grid {
+    flex-direction: column; /* Stapelt Bild und Text untereinander */
+    text-align: center; /* Zentriert den Text */
+  }
+
+  .uebermich-img-box {
+    max-width: 100%; /* Bild passt sich der Bildschirmbreite an */
+  }
+
+  .hero__socials-inline {
+    flex-wrap: wrap; /* Buttons umbrechen, falls nötig */
+  }
+
+  .uebermich-wrapper {
+    flex-direction: column; /* Bild und Text untereinander */
+    align-items: center; /* Zentriert Bild und Text */
+    text-align: center; /* Text zentrieren */
+  }
+
+  .uebermich-image img {
+    width: 200px; /* Kleinere Breite des Bildes auf mobilen Geräten */
+  }
+
+  .uebermich-text h2 {
+    font-size: 1.8rem; /* Etwas kleinere Überschrift auf mobilen Geräten */
+  }
+
+  .uebermich-text p {
+    font-size: 1rem; /* Kleinere Schriftgröße für den Text */
+  }
+
+  .leistungen-grid {
+    grid-template-columns: 1fr; /* Eine Spalte auf kleinen Bildschirmen */
+  }
+
+  .leistungskarte-img {
+    height: 120px; /* Kleinere Höhe für Bilder */
+  }
+}
